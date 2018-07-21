@@ -7,11 +7,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This project already has angular material design components [Angular Material](https://github.com/angular/material2) version 6.2.1 with 3 differents components:
 
 1. Header component
-..* this component use a material mat-sidenav-container
+    * this component use a material mat-sidenav-container
 2. Content component
-..* this component use a material mat-grid-list and mat-table
+    * this component use a material mat-grid-list and mat-table
 3. Footer component
-..* <footer> tag with angular material primary color fo the current theme
+    * <footer> tag with angular material primary color fo the current theme
 
 ## Prefix (amb-)
 
@@ -46,10 +46,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-### Developer
+## Developer
 
-Andrés Solano S 
+### Andrés Solano S (andres.solano@gmail.com)
 
-..* [linkedin](http://linkedin.com/in/andressolanosoto)
-..* [twitter](http://twitter.com/ryttuo)
-..* [email](andres.solano@gmail.com)
+* [linkedin](http://linkedin.com/in/andressolanosoto)
+* [twitter](http://twitter.com/ryttuo)
