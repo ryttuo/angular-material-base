@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Demo
+
+You can see this demo [here](http://amb.ryttuo.com)
+
 ## Angular Material UX Template
 
 This project already has angular material design components [Angular Material](https://github.com/angular/material2) version 6.2.1 with 3 differents components:
@@ -17,8 +21,9 @@ This project already has angular material design components [Angular Material](h
 
 This project is using a amb prefix (Angular Material Base) and you should change it to the property prefix for your project.
 
-## Default sass files and custom color palletes 
+## Default sass styles files and custom color palletes 
 
+In the theme.scss you can see curent color palletes
 
 
 ## Development server
