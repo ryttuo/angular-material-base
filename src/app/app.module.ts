@@ -11,11 +11,16 @@ import { MatToolbarModule,
   MatListModule,
   MatGridListModule,
   MatCardModule,
-  MatMenuModule, MatTableModule, MatPaginatorModule, MatSortModule, MatChipsModule, MatExpansionModule } from '@angular/material';
+  MatMenuModule,
+  MatTableModule,
+  MatPaginatorModule,
+  MatSortModule,
+  MatChipsModule,
+  MatExpansionModule
+} from '@angular/material';
 import { AmbNavComponent } from './shared/components/amb-nav/amb-nav.component';
 import { AmbDashboardComponent } from './shared/components/amb-dashboard/amb-dashboard.component';
 import { AmbTableComponent } from './shared/components/amb-table/amb-table.component';
-import { AmbHeaderComponent } from './amb-header/amb-header.component';
 import { AmbContentComponent } from './amb-content/amb-content.component';
 import { AmbFooterComponent } from './amb-footer/amb-footer.component';
 
@@ -25,7 +30,6 @@ import { AmbFooterComponent } from './amb-footer/amb-footer.component';
     AmbNavComponent,
     AmbDashboardComponent,
     AmbTableComponent,
-    AmbHeaderComponent,
     AmbContentComponent,
     AmbFooterComponent,
   ],
