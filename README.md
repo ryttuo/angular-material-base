@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project already has angular material design components [Angular Material](https://github.com/angular/material2) version 6.2.1 with 3 differents components:
 
-1. Header component
+1. App component, use a navbar base component to get content and footer data
     * this component use a material mat-sidenav-container
 2. Content component
     * this component use a material mat-grid-list and mat-table
