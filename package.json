@@ -1,6 +1,7 @@
 {
   "name": "angular-material-base",
   "version": "0.0.0",
+  "description": "Angular 7 boilerplate with Material, @ngrx and lazy loading",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +10,21 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryttuo/angular-material-base.git"
+  },
+  "keywords": [
+    "angular7",
+    "ngrx",
+    "lazy-loading"
+  ],
+  "author": "http://bit.ly/andressolano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryttuo/angular-material-base/issues"
+  },
+  "homepage": "https://github.com/ryttuo/angular-material-base#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "^7.2.0",
