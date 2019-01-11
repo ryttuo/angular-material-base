@@ -1,0 +1,23 @@
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .home-card {
+    // flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .home-content {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .home-card {
+    //   flex: 0 0 40%;
+      width: calc(50% - 75px);
+      margin: 10px;
+    }
+  }
+}
