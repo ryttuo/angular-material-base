@@ -2,7 +2,7 @@
   <mat-sidenav #drawer class="sidenav" fixedInViewport="true" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [opened]="showSideNav$ | async"
     [mode]="'push'">
     <mat-toolbar color="primary">Menu</mat-toolbar>
-    <mat-nav-list>
+    <mat-nav-list (click)="closeSideNav()">
       <a mat-list-item [routerLink]="['/home']">home</a>
       <mat-divider></mat-divider>
       <a mat-list-item [routerLink]="['/contact']">contact</a>
