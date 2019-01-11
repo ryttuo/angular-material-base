@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Store } from '@ngrx/store';
 import { AppState, showSidenav } from 'src/app/core/appState';
-import * as LayoutActions from 'src/app/core/layout/layout.actions';
+import { OpenSidenav, CloseSidenav } from 'src/app/core/layout/layout.actions';
 
 @Component({
   selector: 'amb-nav',
@@ -31,13 +31,13 @@ export class AmbNavComponent implements OnInit {
 
   openSideNav() {
 
-    this.layoutStore.dispatch(new LayoutActions.OpenSidenav);
+    this.layoutStore.dispatch(new OpenSidenav);
 
   }
 
   closeSideNav() {
 
-    this.layoutStore.dispatch(new LayoutActions.CloseSidenav);
+    this.layoutStore.dispatch(new CloseSidenav);
 
   }
 
