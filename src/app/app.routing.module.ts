@@ -13,7 +13,12 @@ const routes: Routes = [
     path: 'home',
     pathMatch: 'full',
     loadChildren: './amb-home/amb-home.module#AmbHomeModule'
-},
+  },
+  {
+    path: 'list',
+    pathMatch: 'full',
+    loadChildren: './amb-list/amb-list.module#AmbListModule'
+  },
   { path: '**', redirectTo: '' },
 
 ];
