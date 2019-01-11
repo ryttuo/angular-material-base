@@ -3,7 +3,7 @@ import { BreakpointObserver } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Store } from '@ngrx/store';
-import { AppState, showSidenav } from 'src/app/core/appState';
+import { AppState, showSidenav, getAppTitle } from 'src/app/core/appState';
 import { OpenSidenav, CloseSidenav } from 'src/app/core/layout/layout.actions';
 
 @Component({
@@ -18,6 +18,7 @@ export class AmbNavComponent implements OnInit {
       map(result => result.matches)
     );
   showSideNav$: Observable<boolean>;
+  appTitle$: Observable<string>;
 
   constructor(
     private breakpointObserver: BreakpointObserver,
@@ -26,6 +27,7 @@ export class AmbNavComponent implements OnInit {
 
   ngOnInit() {
     this.showSideNav$ = this.layoutStore.select(showSidenav);
+    this.appTitle$ = this.layoutStore.select(getAppTitle);
   }
 
 

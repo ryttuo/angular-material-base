@@ -15,3 +15,5 @@ export const getLayoutState = (state: AppState) => {
 };
 
 export const showSidenav = createSelector(getLayoutState, (state: layout.LayoutState) => state.showSidenav);
+
+export const getAppTitle = createSelector(getLayoutState, (state: layout.LayoutState) => state.appTitle);

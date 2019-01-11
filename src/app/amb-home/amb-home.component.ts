@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from '../core/appState';
-import { OpenSidenav, CloseSidenav } from '../core/layout/layout.actions';
+import { OpenSidenav, CloseSidenav, SetAppTitle } from '../core/layout/layout.actions';
 
 @Component({
   selector: 'amb-home',
@@ -13,6 +13,9 @@ export class AmbHomeComponent implements OnInit {
   constructor(private layoutStore: Store<AppState>) { }
 
   ngOnInit() {
+
+    this.layoutStore.dispatch(new SetAppTitle('home'));
+
   }
 
   open() {

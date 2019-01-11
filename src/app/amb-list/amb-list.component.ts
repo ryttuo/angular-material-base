@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { AppState } from '../core/appState';
+import { SetAppTitle } from '../core/layout/layout.actions';
 
 @Component({
   selector: 'amb-list',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AmbListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private layoutStore: Store<AppState>) { }
 
   ngOnInit() {
+
+    this.layoutStore.dispatch(new SetAppTitle('list'));
+
   }
 
 }

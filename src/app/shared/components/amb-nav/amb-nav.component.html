@@ -20,7 +20,7 @@
     </mat-toolbar>
 
     <div class="app-content">
-      <mat-toolbar>Title</mat-toolbar>
+      <mat-toolbar class="app-title">{{ appTitle$ | async }}</mat-toolbar>
       <router-outlet></router-outlet>
     </div>
     <amb-footer></amb-footer>
