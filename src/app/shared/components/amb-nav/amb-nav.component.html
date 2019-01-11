@@ -3,9 +3,12 @@
     [mode]="'push'">
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item [routerLink]="['/home']">home</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item [routerLink]="['/contact']">contact</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item [routerLink]="['/list']">list</a>
+      <mat-divider></mat-divider>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
