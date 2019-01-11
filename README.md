@@ -1,5 +1,7 @@
 # AngularMaterialBase
 
+This is a boileplate project with Angular 7, Angular Material, using [@ngrx](https://github.com/ngrx) to handle aplication state and lazy loading implementatio, you can create your own Angular 7 project with everything ready to focus into coding
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Demo
@@ -8,14 +10,9 @@ You can see this demo [here](http://amb.ryttuo.com)
 
 ## Angular Material UX Template
 
-This project already has angular material design components [Angular Material](https://github.com/angular/material2) version 6.2.1 with 3 differents components:
+This project already has angular material design components [Angular Material](https://github.com/angular/material2) version 6.2.1 with several components
 
-1. App component, use a navbar base component to get content and footer data
-    * this component use a material mat-sidenav-container
-2. Content component
-    * this component use a material mat-grid-list and mat-table
-3. Footer component
-    * <footer> tag with angular material primary color fo the current theme
+Just import MaterialModule for each lazy module and you could use a lot of angular material components, if you need add a new one just put into this Module also.
 
 ## Prefix (amb-)
 
@@ -23,12 +20,16 @@ This project is using a amb prefix (Angular Material Base) and you should change
 
 ## Default sass styles files and custom color palletes 
 
-In the theme.scss you can see curent color palletes
+In the theme.scss you can see curent color palettes, just change primary, accent and warn values to get your own [theme](https://material.angular.io/guide/theming)
 
+## Install
 
-## Development server
+1. clone the repo `git clone git@github.com:ryttuo/angular-material-base.git`
+2. go to the project and `npm install`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Local Enviroment
+
+Run `ng serve` for a local environment. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
