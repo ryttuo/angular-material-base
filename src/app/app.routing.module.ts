@@ -15,6 +15,11 @@ const routes: Routes = [
     loadChildren: './amb-home/amb-home.module#AmbHomeModule'
   },
   {
+    path: 'contact',
+    pathMatch: 'full',
+    loadChildren: './amb-contact/amb-contact.module#AmbContactModule'
+  },
+  {
     path: 'list',
     pathMatch: 'full',
     loadChildren: './amb-list/amb-list.module#AmbListModule'

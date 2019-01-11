@@ -17,7 +17,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSelectModule } from '@angular/material/select';
 import { MatChipsModule } from '@angular/material/chips';
-import { MatSlideToggleModule, MatPaginatorModule, MatSortModule } from '@angular/material';
+import { MatSlideToggleModule, MatPaginatorModule, MatSortModule, MatFormFieldModule } from '@angular/material';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -53,6 +53,7 @@ import { MatTableModule } from '@angular/material/table';
         MatTableModule,
         MatPaginatorModule,
         MatSortModule,
+        MatFormFieldModule,
     ],
     exports: [
         MatIconModule,
@@ -82,6 +83,7 @@ import { MatTableModule } from '@angular/material/table';
         MatTableModule,
         MatPaginatorModule,
         MatSortModule,
+        MatFormFieldModule,
     ]
 })
 export class MaterialModule {

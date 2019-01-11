@@ -1,0 +1,9 @@
+.form-contact {
+  margin: 10px 0 0 35px;
+  form {
+      margin-bottom: 10px;
+    & > div {
+      margin-top: 10px;
+    }
+  }
+}
