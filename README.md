@@ -1,6 +1,6 @@
 # AngularMaterialBase
 
-This is a boileplate project with Angular 7, Angular Material, using [@ngrx](https://github.com/ngrx) to handle aplication state and lazy loading implementatio, you can create your own Angular 7 project with everything ready to focus into coding
+This is a boileplate project with Angular 7, Angular Material, using [@ngrx](https://github.com/ngrx) to handle aplication state and lazy loading implementation, you can create your own Angular 7 project with everything ready to focus into coding
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
