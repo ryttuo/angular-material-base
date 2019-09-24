@@ -6,23 +6,23 @@ const routes: Routes = [
   {
       path: '',
       pathMatch: 'full',
-      loadChildren: './amb-home/amb-home.module#AmbHomeModule'
+      loadChildren: () => import('./amb-home/amb-home.module').then(m => m.AmbHomeModule)
   },
   // { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
     path: 'home',
     pathMatch: 'full',
-    loadChildren: './amb-home/amb-home.module#AmbHomeModule'
+    loadChildren: () => import('./amb-home/amb-home.module').then(m => m.AmbHomeModule)
   },
   {
     path: 'contact',
     pathMatch: 'full',
-    loadChildren: './amb-contact/amb-contact.module#AmbContactModule'
+    loadChildren: () => import('./amb-contact/amb-contact.module').then(m => m.AmbContactModule)
   },
   {
     path: 'list',
     pathMatch: 'full',
-    loadChildren: './amb-list/amb-list.module#AmbListModule'
+    loadChildren: () => import('./amb-list/amb-list.module').then(m => m.AmbListModule)
   },
   { path: '**', redirectTo: '' },
 
