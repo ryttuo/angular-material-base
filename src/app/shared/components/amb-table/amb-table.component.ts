@@ -9,8 +9,8 @@ import { AmbTableDataSource } from './amb-table-datasource';
   styleUrls: ['./amb-table.component.scss']
 })
 export class AmbTableComponent implements OnInit {
-  @ViewChild(MatPaginator) paginator: MatPaginator;
-  @ViewChild(MatSort) sort: MatSort;
+  @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
+  @ViewChild(MatSort, { static: true }) sort: MatSort;
   dataSource: AmbTableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
