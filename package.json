@@ -43,12 +43,12 @@
     "@ngrx/store-devtools": "^8.3.0",
     "core-js": "^3.2.1",
     "hammerjs": "^2.0.8",
-    "rxjs": "^6.0.0",
+    "rxjs": "^6.6.7",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.5",
+    "@angular-devkit/build-angular": "^0.803.29",
     "@angular/cli": "~8.3.5",
     "@angular/compiler-cli": "^8.2.7",
     "@angular/language-service": "^8.2.7",
