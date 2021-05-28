@@ -31,6 +31,7 @@ import { AppRoutingModule } from './app.routing.module';
     }),
     MaterialModule,
     AppRoutingModule,
+    StoreModule.forRoot({}, {}),
   ],
   providers: [],
   bootstrap: [AppComponent]
